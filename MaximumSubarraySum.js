@@ -25,7 +25,7 @@ var findMaxSumSubArray = function(arr) {
 // Let us see how. Wrapping of contributing elements implies non wrapping of non contributing elements, 
 // so find out the sum of non contributing elements and subtract this sum from the total sum. To find out the sum of non contributing,
 //  invert sign of each element and then run Kadane’s algorithm.var kadaneAlgo = function(A, n) {
-   
+   //https://www.youtube.com/watch?v=s1CYAnJwf50
     var kadaneAlgo = function(A, n) {
         let local_max = 0;
         let global_max = -Infinity;
